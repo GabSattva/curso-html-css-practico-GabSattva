@@ -1,0 +1,131 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Define font sizes */
+html {
+  font-size: 16px;
+}
+
+/* Style the body */
+body {
+  background-color: #fef9c3;
+  padding: 1.5rem;
+}
+
+/* Style the header */
+header {
+  background: linear-gradient(115.68deg, #55d6be -13.06%, #7cdfcd 116.6%);
+  box-shadow: 0px 8px rgba(228, 224, 116, 0.34);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+/* Style the navigation bar */
+.nav {
+  background: #f3f1d5;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.nav__links {
+  color: #868686;
+  text-decoration: none;
+}
+
+.nav__links-home {
+  color: #77ae31;
+}
+
+/* Style the hero section */
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  padding: 5%;
+  margin-bottom: 1rem;
+}
+
+.hero__text {
+  color: #2c2c2c;
+}
+
+.hero__text h1 {
+  font-size: 5rem;
+}
+
+.hero__img {
+  width: 25%;
+  height: 25%;
+}
+
+.hero__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+/* Style the sections */
+.sections {
+  margin: 1rem 0;
+  color: #2c2c2c;
+}
+
+.sections h1 {
+  margin-bottom: 1rem;
+}
+
+/* Style the about section */
+.about__title {
+  margin-bottom: 0.5rem;
+}
+
+/* Style the cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  background-color: #e8fbc5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 200px;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Style the input fields */
+input {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  border: 1px solid #554f4f;
+  border-radius: 0.25rem;
+  margin: 0.5rem 0;
+}
+

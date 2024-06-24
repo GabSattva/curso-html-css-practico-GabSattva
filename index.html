@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- This is the main HTML file for the landing page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation bar -->
+      <nav id="navbar" class="nav">
+        <ul class="nav__list">
+          <li><a class="nav__links nav__links-home" href="#">Inicio</a></li>
+          <li>
+            <a class="nav__links nav__links-info" href="#">Informacion</a>
+          </li>
+          <li>
+            <a class="nav__links nav__links-skills" href="#">Habilidades</a>
+          </li>
+          <li>
+            <a class="nav__links nav__links-projects" href="#">Proyectos</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Hero section -->
+      <div class="hero">
+        <!-- Personal information -->
+        <div class="hero__text">
+          <h1>GabSattva</h1>
+          <h2>Desarrollador Web</h2>
+        </div>
+        <!-- Profile picture -->
+        <div class="hero__img">
+          <img
+            src=".\assests\delish-subway-sub-1521220946.jpg"
+            alt="Hero image"
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Main content section -->
+      <section class="sections">
+        <h1 class="about__title">Yo soy</h1>
+        <p class="about__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius suscipit
+          modi culpa adipisci numquam commodi, nam enim similique minima animi!
+          Iste provident magni dignissimos ab vero aperiam voluptatibus quos
+          sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          impedit debitis veniam inventore saepe sed nemo. Error quis ut
+          assumenda eveniet dolor dicta perspiciatis doloremque laborum,
+          veritatis, facilis, ad illo! Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Dolor numquam inventore animi repudiandae expedita
+          possimus itaque eius corrupti unde, atque voluptas culpa saepe
+          maiores, eveniet sunt dolores quo hic quos.
+        </p>
+      </section>
+      <!-- Skills section -->
+      <section class="sections">
+        <h1>Habilidades</h1>
+        <div class="cards">
+          <article class="card">
+            <img src="assests\python-logo-only.png" alt="python logo" />
+            <h2 class="card__title">Python</h2>
+          </article>
+          <article class="card">
+            <img src="assests\python-logo-only.png" alt="python logo" />
+            <h2 class="card__title">HTML</h2>
+          </article>
+          <article class="card">
+            <img src="assests\python-logo-only.png" alt="python logo" />
+            <h2 class="card__title">CSS</h2>
+          </article>
+          <article class="card">
+            <img src="assests\python-logo-only.png" alt="python logo" />
+            <h2 class="card__title">JavaScript</h2>
+          </article>
+        </div>
+      </section>
+      <!-- Projects section -->
+      <section class="sections">
+        <h1>Proyectos</h1>
+        <div class="cards">
+          <article class="card">
+            <img src="assests\python-logo-only.png" alt="python logo" />
+            <div class="card__content">
+              <h2 class="card__title">Proyecto 1</h2>
+              <p>Descripcion del proyecto</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assests\python-logo-only.png" alt="python logo" />
+            <div class="card__content">
+              <h2 class="card__title">Proyecto 2</h2>
+              <p>Descripcion del proyecto</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assests\python-logo-only.png" alt="python logo" />
+            <div class="card__content">
+              <h2 class="card__title">Proyecto 3</h2>
+              <p>Descripcion del proyecto</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Contact section -->
+      <section class="sections">
+        <h1>Contacto</h1>
+        <form action="">
+          <input type="text" name="name" id="name" placeholder="Tu nombre" />
+          <input type="email" name="email" id="email" placeholder="Tu correo" />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Escribe tu mensaje"
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
